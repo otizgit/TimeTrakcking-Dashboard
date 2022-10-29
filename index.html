@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <title>Time Tracking Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,500;0,600;0,700;1,500;1,600;1,700&family=Barlow+Condensed:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Barlow:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Bellefair&family=Heebo:wght@400;500;700;900&family=Inter+Tight:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,900&family=Inter:wght@400;500;600;700;800&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Luckiest+Guy&family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,900&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,900&family=Passions+Conflict&family=Plus+Jakarta+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,900;1,400;1,500;1,600;1,700;1,900&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <div class="profile border color">
+                <div class="profile-main content border">
+                    <img src="./images/image-jeremy.png" alt="image-jeremy">
+                    <div class="profile-info">
+                        <p class="report">Report for</p>
+                        <p class="name">Jeremy Robson</p>
+                    </div>
+                </div>
+                <div class="toggles content">
+                    <p class="toggle">Daily</p>
+                    <p class="toggle active">Weekly</p>
+                    <p class="toggle">Monthly</p>
+                </div>
+            </div>
+
+            <div class="no-overflow border flex">
+                <div class="icon work">
+                    <img src="./images/icon-work.svg" alt="icon-work">
+                </div>
+                <div class="work-content content color border2">
+                    <div class="top">
+                        <p class="point">Work</p>
+                        <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" class="ellipsis" id="ellips">
+                    </div>
+                    <div class="time-div">
+                        <p class="time">32hrs</p>
+                        <p class="track">Last Week - 36hrs</p>
+                    </div>
+                    <div class="inner-toggle">
+                        <p class="it first">Daily</p>
+                        <p class="it first">Weekly</p>
+                        <p class="it first">Monthly</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="no-overflow border flex">
+                <div class="icon play">
+                    <img src="./images/icon-play.svg" alt="icon-play">
+                </div>
+                <div class="work-content content color border2">
+                    <div class="top">
+                        <p class="point">Play</p>
+                        <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" class="ellipsis" id="ellips2">
+                    </div>
+                    <div class="time-div">
+                        <p class="time">10hrs</p>
+                        <p class="track">Last Week - 8hrs</p>
+                    </div>
+                    <div class="inner-toggle">
+                        <p class="it second">Daily</p>
+                        <p class="it second">Weekly</p>
+                        <p class="it second">Monthly</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="no-overflow border flex">
+                <div class="icon study">
+                    <img src="./images/icon-study.svg" alt="icon-study">
+                </div>
+                <div class="work-content content color border2">
+                    <div class="top">
+                        <p class="point">Study</p>
+                        <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" class="ellipsis" id="ellips3">
+                    </div>
+                    <div class="time-div">
+                        <p class="time">4hrs</p>
+                        <p class="track">Last Week - 7hrs</p>
+                    </div>
+                    <div class="inner-toggle">
+                        <p class="it third">Daily</p>
+                        <p class="it third">Weekly</p>
+                        <p class="it third">Monthly</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="no-overflow border flex">
+                <div class="icon exercise redo">
+                    <img src="./images/icon-exercise.svg" alt="icon-exercise">
+                </div>
+                <div class="work-content content color border2">
+                    <div class="top">
+                        <p class="point">Exercise</p>
+                        <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" class="ellipsis" id="ellips4">
+                    </div>
+                    <div class="time-div">
+                        <p class="time">4hrs</p>
+                        <p class="track">Last Week - 5hrs</p>
+                    </div>
+                    <div class="inner-toggle">
+                        <p class="it forth">Daily</p>
+                        <p class="it forth">Weekly</p>
+                        <p class="it forth">Monthly</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="no-overflow border flex">
+                <div class="icon social redo2">
+                    <img src="./images/icon-social.svg" alt="icon-social">
+                </div>
+                <div class="work-content content color border2">
+                    <div class="top">
+                        <p class="point">Social</p>
+                        <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" class="ellipsis" id="ellips5">
+                    </div>
+                    <div class="time-div">
+                        <p class="time">5hrs</p>
+                        <p class="track">Last Week - 10hrs</p>
+                    </div>
+                    <div class="inner-toggle">
+                        <p class="it fifth">Daily</p>
+                        <p class="it fifth">Weekly</p>
+                        <p class="it fifth">Monthly</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="no-overflow border flex">
+                <div class="icon selfcare">
+                    <img src="./images/icon-self-care.svg" alt="icon-work">
+                </div>
+                <div class="work-content content color border2">
+                    <div class="top">
+                        <p class="point">Self Care</p>
+                        <img src="./images/icon-ellipsis.svg" alt="icon-ellipsis" class="ellipsis" id="ellips6">
+                    </div>
+                    <div class="time-div">
+                        <p class="time">2hrs</p>
+                        <p class="track">Last Week - 2hrs</p>
+                    </div>
+                    <div class="inner-toggle">
+                        <p class="it sixth">Daily</p>
+                        <p class="it sixth">Weekly</p>
+                        <p class="it sixth">Monthly</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="./app.js"></script>
+</body>
+</html>
